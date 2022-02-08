@@ -21,3 +21,6 @@ See what data you are sending Network->All->see what you submited
 ">" in css means that you target only what you specify with no inheritance
 
 * { } usually we use this when we want to set some default
+
+Each browser does things different you want to remove that
+You should go to meyerweb.com and grab the css code to create a new reset.css code

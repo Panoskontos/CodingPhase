@@ -8,6 +8,11 @@ body {
   /* background: pink; */
 }
 
+/* instead of * youcan do root */
+:root {
+  font-family: monospace;
+}
+
 .box {
   background: white;
   width: 300px;
@@ -38,4 +43,41 @@ body {
 
 img[alt^="goku"] {
   width: 100px;
+  opacity: 0.3;
+}
+
+img[alt^="ru"] {
+  width: 130px;
+  opacity: 0.3;
+  padding-left: 30px;
+}
+img[alt^="jo"] {
+  width: 170px;
+  opacity: 0.3;
+}
+div::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: green;
+}
+
+p::first-letter {
+  display: inline-block;
+  padding: 10px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+p:hover {
+  background-color: plum;
+  color: white;
+}
+
+.box:nth-child(3) {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(47, 95, 138);
 }
