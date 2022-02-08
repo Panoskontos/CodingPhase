@@ -15,3 +15,9 @@ You usually use span tags if you want to style things
 You can check website performance from Network->No throtling 
 
 rel="no follow" means this has nothing to do with link
+
+See what data you are sending Network->All->see what you submited
+
+">" in css means that you target only what you specify with no inheritance
+
+* { } usually we use this when we want to set some default

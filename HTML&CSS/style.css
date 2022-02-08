@@ -1,7 +1,33 @@
 body {
-  background-color: antiquewhite;
+  background-color: darkslateblue;
 }
 
-section {
-  background-color: rgb(209, 209, 209);
+.box {
+  background: white;
+  width: 300px;
+  padding: 20px;
+}
+
+.box3 {
+  background: rgb(136, 82, 1);
+  width: 400px;
+}
+
+.box2 {
+  background: black;
+  color: aliceblue;
+}
+
+.box3 .box4 h1 span,
+.box2 h1 {
+  color: gold;
+}
+
+.box3 > h1 {
+  color: blue;
+}
+
+/* change background of everything or set a DEFAULT */
+* {
+  /* background: pink; */
 }
