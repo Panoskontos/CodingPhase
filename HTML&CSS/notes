@@ -1,7 +1,8 @@
-Usefull Websites
+---------Usefull Websites-------------
 
 htmlreference.io
 cssreference.io
+w3schools
 
 
 ---------Tips!-------------
@@ -12,3 +13,5 @@ Additional head meta content is the description when googling
 You usually use span tags if you want to style things
 
 You can check website performance from Network->No throtling 
+
+rel="no follow" means this has nothing to do with link
