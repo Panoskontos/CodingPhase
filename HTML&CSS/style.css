@@ -11,17 +11,19 @@ body {
 /* instead of * youcan do root */
 :root {
   font-family: monospace;
+  font-size: 12px;
 }
 
 .box {
   background: white;
-  width: 300px;
+  width: 100vw;
+  height: 50vh;
   padding: 20px;
 }
 
 .box3 {
   background: rgb(136, 82, 1);
-  width: 400px;
+  width: 100vw;
 }
 
 .box2 {
@@ -41,6 +43,12 @@ body {
   color: blue;
 }
 
+.box4 {
+  /* percent of parent element */
+  width: 50%;
+  height: 90%;
+}
+
 img[alt^="goku"] {
   width: 100px;
   opacity: 0.3;
@@ -55,13 +63,13 @@ img[alt^="jo"] {
   width: 170px;
   opacity: 0.3;
 }
-div::after {
+/* div::after {
   content: " ";
   display: block;
   height: 3px;
   width: 100%;
   background: green;
-}
+} */
 
 p::first-letter {
   display: inline-block;

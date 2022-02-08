@@ -24,3 +24,6 @@ See what data you are sending Network->All->see what you submited
 
 Each browser does things different you want to remove that
 You should go to meyerweb.com and grab the css code to create a new reset.css code
+load the reset.css to your index
+
+To have responsive width in each device you should use 100vw
