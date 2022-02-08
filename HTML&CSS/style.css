@@ -35,3 +35,7 @@ body {
 .box3 > h1 {
   color: blue;
 }
+
+img[alt^="goku"] {
+  width: 100px;
+}
