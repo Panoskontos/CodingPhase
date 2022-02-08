@@ -2,6 +2,12 @@ body {
   background-color: darkslateblue;
 }
 
+/* change background of everything or set a DEFAULT */
+* {
+  color: black;
+  /* background: pink; */
+}
+
 .box {
   background: white;
   width: 300px;
@@ -15,6 +21,9 @@ body {
 
 .box2 {
   background: black;
+}
+
+.box2 p {
   color: aliceblue;
 }
 
@@ -25,9 +34,4 @@ body {
 
 .box3 > h1 {
   color: blue;
-}
-
-/* change background of everything or set a DEFAULT */
-* {
-  /* background: pink; */
 }
