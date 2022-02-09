@@ -27,3 +27,6 @@ You should go to meyerweb.com and grab the css code to create a new reset.css co
 load the reset.css to your index
 
 To have responsive width in each device you should use 100vw
+
+Arial, Helvetica, sans serif i want this to be arial if it does not exist go helvetica
+else go sans serif
