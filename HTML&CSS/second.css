@@ -2,7 +2,7 @@ body {
   background-color: antiquewhite;
 }
 
-h2 {
+/* h2 {
   font-size: 2rem;
   font-family: monospace;
   font-style: italic;
@@ -20,22 +20,71 @@ p {
   width: 300px;
   text-align: justify;
   text-indent: 40px;
+} */
+body {
+  height: 5000px;
 }
-
 .box1 {
-/* the box takes the whole space but with inline block it takes what is specified */
-  display: inline-block;
   background-color: black;
   color: white;
-  padding: 20px;
-  border: 5px solid rgb(206, 206, 206);
-  margin: 20px;
-  width: 400px;
+  height: 100px;
+  width: 100px;
+  /* position boxes precisely */
+  /* position absolute is going to be static on scroll  */
+  /* while fixed will come with scroll (menus) */
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .box2 {
   background: violet;
-  padding: 30px;
-  border: 10px solid rgb(2, 0, 12);
-  margin: 40px 20px;
+  /* means make other boxes with position absolute position inside you */
+  position: relative;
+  right: 50px;
+  left: 50px;
+  height: 200px;
+  width: 200px;
+  z-index: 5;
+}
+
+.box3 {
+  background: burlywood;
+  width: 100px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px;
+  position: relative;
+  z-index: 5;
+}
+
+a,
+span {
+  /* display:inherit takes what the parent is */
+  display: inherit;
+}
+
+.num {
+  padding: 10px;
+  display: block;
+  background-color: whitesmoke;
+  /* use flexbox to centralise*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* --------------------- */
+  border-radius: 30px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.box4 {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  position: fixed;
+  top: 0;
 }

@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+}
+
+/* creating css variables */
+:root {
+  --box-background: #dddddd;
+  --box-width: 300px;
+}
+
+.box {
+  width: var(--box-width);
+  height: 200px;
+  background-color: var(--box-background);
+}
+.box2 {
+  width: var(--box-width);
+  height: 200px;
+  background-color: var(--box-background);
+}
+.box3 {
+  width: var(--box-width);
+  height: 200px;
+  background-color: var(--box-background);
+}
+
+.title {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.p {
+  font-size: 11px;
+  line-height: 1.5;
+}

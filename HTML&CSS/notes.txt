@@ -36,3 +36,19 @@ padding: top right bottom left;
 
 display: inline-block;
 the box takes the whole space but with inline block it takes what is specified */
+
+Having an element taking all of the space when inspecting it means that no matter what nothing will
+ever get next to it. That's why we use display:inline-block;
+
+If you want to remove an element you can use display none
+
+position boxes precisely 
+position absolute is going to be static on scroll  
+while fixed will come with scroll (menus) 
+position: fixed; position:absolute;
+
+combo with absolute!!!!
+position: relative;
+means make other boxes with position absolute position inside you
+
+z-index decides if boxes are behind or above each other
