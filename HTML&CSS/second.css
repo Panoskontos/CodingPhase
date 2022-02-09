@@ -11,8 +11,31 @@ h2 {
 }
 
 p {
+  text-shadow: 3px 4px 10px rgb(104, 151, 253);
   color: rgb(0, 0, 0, 0.4);
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
-  font-variant: small-caps;
+  text-transform: capitalize;
+  line-height: 1.5;
+  width: 300px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.box1 {
+/* the box takes the whole space but with inline block it takes what is specified */
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 5px solid rgb(206, 206, 206);
+  margin: 20px;
+  width: 400px;
+}
+
+.box2 {
+  background: violet;
+  padding: 30px;
+  border: 10px solid rgb(2, 0, 12);
+  margin: 40px 20px;
 }

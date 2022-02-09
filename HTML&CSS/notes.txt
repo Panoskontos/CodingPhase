@@ -30,3 +30,9 @@ To have responsive width in each device you should use 100vw
 
 Arial, Helvetica, sans serif i want this to be arial if it does not exist go helvetica
 else go sans serif
+
+Think of this like clockwise
+padding: top right bottom left; 
+
+display: inline-block;
+the box takes the whole space but with inline block it takes what is specified */
