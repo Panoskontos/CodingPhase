@@ -52,3 +52,7 @@ position: relative;
 means make other boxes with position absolute position inside you
 
 z-index decides if boxes are behind or above each other
+
+the css variables on root will make your css achitecture so much better
+but on't use them for everything only for the things that are going to be
+REUSED (backgrounds, buttons, sizes, radiuses)

@@ -1,0 +1,28 @@
+body {
+  background-color: antiquewhite;
+}
+
+/* creating css variables */
+:root {
+  --box-background: #dddddd;
+  /* use calculations */
+  --box-width: calc(100vw - 500px);
+  --title-color: purple;
+  --title-size: 1.5rem;
+  --text-color: black;
+}
+
+.box {
+  width: 100vw;
+  height: 60vh;
+  background-color: var(--box-background);
+}
+.box2 {
+  width: 70vw;
+  height: 20vh;
+  background-color: black;
+}
+
+p.h1 {
+  color: var(--text-color);
+}
