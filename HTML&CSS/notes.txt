@@ -66,5 +66,5 @@ when you write css write in the order of how it is
 viewd in the page
 
 write your code with clean architecture names
-box, box__title & and with 
+box, box__title,box__description & and with 
 modifiers(bootsrap) box--dark making your html class heavy
