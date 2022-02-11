@@ -4,25 +4,80 @@ body {
 
 /* creating css variables */
 :root {
-  --box-background: #dddddd;
+  --box-background: #6e6e6e;
   /* use calculations */
   --box-width: calc(100vw - 500px);
   --title-color: purple;
   --title-size: 1.5rem;
   --text-color: black;
+  --text-size: 1rem;
+}
+
+/* clean css */
+.article {
+  background-color: var(--box-background);
+}
+
+.article__title {
+  font-size: var(--title-size);
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.article__description {
+  /* color: var(--text-color); */
+  font-size: var(--text-size);
+}
+
+.article__square {
+  width: 300px;
+  background: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__square-title {
+  font-size: 3rem;
+}
+/* ------------------- */
+/* modifiers */
+/* you can put them on classes */
+.article--dark {
+  color: white;
 }
 
 .box {
-  width: 100vw;
-  height: 60vh;
-  background-color: var(--box-background);
-}
-.box2 {
-  width: 70vw;
-  height: 20vh;
-  background-color: black;
+  padding: 20px;
 }
 
-p.h1 {
-  color: var(--text-color);
+.leave--space {
+  margin-bottom: 20px;
 }
+
+/* laptops */
+/* @media (max-width: 1600px) {
+  .box {
+    width: 100vw;
+    background: green;
+    padding: 10px;
+  }
+}
+
+/* tablet */
+/* @media (max-width: 1023px) {
+  .box {
+    width: 100vw;
+    background: purple;
+    padding: 10px;
+  }
+} */
+
+/* mobile */
+/* @media (max-width: 767px) {
+  .box {
+    width: 100vw;
+    background: goldenrod;
+    padding: 10px;
+  }
+}  */

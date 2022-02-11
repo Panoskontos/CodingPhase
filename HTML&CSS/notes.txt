@@ -56,3 +56,15 @@ z-index decides if boxes are behind or above each other
 the css variables on root will make your css achitecture so much better
 but on't use them for everything only for the things that are going to be
 REUSED (backgrounds, buttons, sizes, radiuses)
+
+
+don't forget to add 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+when doing your responsive media screen for other devices
+
+when you write css write in the order of how it is 
+viewd in the page
+
+write your code with clean architecture names
+box, box__title & and with 
+modifiers(bootsrap) box--dark making your html class heavy
