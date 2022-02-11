@@ -3,6 +3,7 @@
 htmlreference.io
 cssreference.io
 w3schools
+getbem.com
 
 
 ---------Tips!-------------
@@ -65,6 +66,7 @@ when doing your responsive media screen for other devices
 when you write css write in the order of how it is 
 viewd in the page
 
-write your code with clean architecture names
-box, box__title,box__description & and with 
+write your code with clean BEM architecture 
+names box, box__title,box__description & and with 
 modifiers(bootsrap) box--dark making your html class heavy
+reusing your classes 
