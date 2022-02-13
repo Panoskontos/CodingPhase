@@ -1,0 +1,4 @@
+/* helps you with specifing width,height so it is correct and not shrinking */
+* {
+  box-sizing: border-box;
+}
