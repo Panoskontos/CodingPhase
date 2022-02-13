@@ -2,3 +2,80 @@
 * {
   box-sizing: border-box;
 }
+
+*:focus {
+  /* remove ufly outlines */
+  outline: none;
+}
+
+/* start with variables */
+:root {
+  --fb-blue: #0a86f0;
+  --fb-black: #090900;
+  --fb-red: crimson;
+  --fb-green: green;
+  --fb-yellow: gold;
+  --fb-white: #ffffff;
+  --fb-bgcolor: #f0f2f5;
+  --button-link: #e0e2e8;
+  --dark-color-text: #090909;
+  --light-color-text: #606770;
+  --stories-bg: #090909;
+}
+
+body {
+  background: var(--fb-bgcolor);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--fb-black);
+  /* height: 5000px; */
+}
+
+header {
+  background: var(--fb-white);
+  height: 56px;
+  width: 100%;
+  padding: 0 15px;
+  /* grid */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* ------------------------- */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
+
+.header__logo-section {
+  display: flex;
+}
+
+.header__logo-icon .fa-facebook {
+  font-size: 40px;
+  color: var(--fb-blue);
+}
+
+.header__logo-search {
+  /* have control to what is inside */
+  position: relative;
+  margin-left: 10px;
+}
+
+.header__logo-search .fa-search {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  color: var(--light-color-text);
+}
+
+.header__logo-search input {
+  background: var(--fb-bgcolor);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  color: var(--light-color-text);
+  padding-left: 45px;
+  font-weight: 300;
+  border: none;
+}
