@@ -223,7 +223,7 @@ header {
 
 .sidenav__item-title {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .sidenav__item-icon {
@@ -234,4 +234,27 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+}
+
+.sidenav__item-notfication {
+  color: var(--fb-blue);
+  margin-top: 5px;
+  font-size: 0.75rem;
+  display: block;
+  font-weight: 500;
+}
+
+.sidenav__item-icon .fas,
+.sidenav__item-icon .fab {
+  color: var(--fb-blue);
+}
+
+.sidenav__item-circle {
+  background: #e4e6eb;
+  border-radius: 50%;
+}
+
+.sidenav__item-circle > i {
+  position: relative;
+  top: -4px;
 }
