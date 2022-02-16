@@ -212,6 +212,7 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .sidenav__item-img {
@@ -282,4 +283,51 @@ header {
   border-radius: 5px;
   background: var(--stories-bg);
   position: relative;
+  box-shadow: 0px 2px 4px 0px var(--fb-black);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* last element */
+.stories__video-container:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.stories__bg {
+  /* if you don't put object feet it will not fit good */
+  object-fit: cover;
+  object-position: center;
+  width: 125px;
+  height: 200px;
+  opacity: 0.4;
+  transition: opacity.5s ease-in-out;
+}
+
+.stories__video-container:hover .stories__bg {
+  opacity: 0.8;
+}
+
+.stories__title {
+  position: absolute;
+  bottom: 0;
+  background: var(--fb-white);
+  width: 100%;
+  color: var(--fb-black);
+  padding: 20px 20px 10px;
+  font-size: 1rem;
+}
+
+.stories__title-btn {
+  background: var(--fb-blue);
+  width: 40px;
+  height: 40px;
+  color: var(--fb-white);
+  border-radius: 50%;
+  border: 4px solid var(--fb-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: 40px;
 }
