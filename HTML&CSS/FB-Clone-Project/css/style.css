@@ -201,5 +201,37 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+}
+
+.content-area-feed {
+  padding: 90px 15px 20px;
+  display: flex;
+}
+
+.sidenav__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidenav__item-img {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin-right: 20px;
+}
+
+.sidenav__item-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.sidenav__item-icon {
+  margin-right: 20px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }

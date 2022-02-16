@@ -1,6 +1,13 @@
+
+Helpful links and websites:
+    randomuser.me
+
+
+Tips
+
 when trying to come a design break everything down to boxes.
 Everything is a box!
 Inside each box there are other sub boxes!
 
-Helpful links and websites:
-    randomuser.me
+When you finish a section close it on html 
+so you can see better 
