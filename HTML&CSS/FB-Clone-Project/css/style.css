@@ -258,3 +258,28 @@ header {
   position: relative;
   top: -4px;
 }
+
+.feed {
+  margin-left: 50px;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.stories__video-container {
+  overflow: hidden;
+  width: 120px;
+  height: 200px;
+  border-radius: 5px;
+  background: var(--stories-bg);
+  position: relative;
+}
