@@ -11,3 +11,5 @@ Inside each box there are other sub boxes!
 
 When you finish a section close it on html 
 so you can see better 
+
+To optimize website for speed never use gifs, always use jpeg or video
