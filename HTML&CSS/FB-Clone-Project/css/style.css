@@ -22,6 +22,7 @@
   --dark-color-text: #090909;
   --light-color-text: #606770;
   --stories-bg: #090909;
+  --hover-overlay: rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -262,7 +263,7 @@ header {
 }
 
 .feed {
-  margin-left: 50px;
+  margin-left: 120px;
   width: 50%;
   height: 200px;
   display: flex;
@@ -335,4 +336,36 @@ header {
   position: absolute;
   top: -20px;
   left: 40px;
+}
+
+.stories__notshowing {
+  background-color: var(--fb-grey);
+  box-shadow: none;
+  position: relative;
+  overflow: visible;
+}
+
+.stories__video-gray_circle {
+  background-color: var(--hover-overlay);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.stories__video-arrow_circle {
+  background-color: var(--fb-white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(190, 190, 190);
+  position: absolute;
+  right: -20px;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
 }
