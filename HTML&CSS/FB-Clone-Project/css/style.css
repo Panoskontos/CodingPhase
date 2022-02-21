@@ -397,7 +397,7 @@ header {
   padding: 10px;
   border: none;
   border-radius: 25px;
-  width: 85vw;
+  width: 75vw;
   font-size: 1.2rem;
   padding-left: 20px;
 }
@@ -407,4 +407,35 @@ header {
   background: var(--button-link);
   margin-bottom: 15px;
   display: block;
+}
+
+.post__types {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.post_types__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* first target all items */
+.post_types__item .fas,
+.post_types__item .far {
+  margin: 10px;
+  font-size: 1.4rem;
+  color: var(--light-color-text);
+}
+
+/* then target seperately */
+.post_types__item .fa-video {
+  color: var(--fb-red);
+}
+.post_types__item .fa-photo-video {
+  color: var(--fb-green);
+}
+.post_types__item .fa-laugh-beam {
+  color: var(--fb-yellow);
 }
