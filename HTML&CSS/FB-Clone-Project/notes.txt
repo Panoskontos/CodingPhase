@@ -20,3 +20,8 @@ if you use
 flex-direction:column;"
 each div it's going to be treated like a row
 We use to to stack elements
+
+
+If you want to fit an image 
+use   width: 100%;
+it contains withinh parents width */

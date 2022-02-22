@@ -280,7 +280,7 @@ header {
 
 .stories__video-container {
   overflow: hidden;
-  width: 120px;
+  width: 132px;
   height: 200px;
   border-radius: 5px;
   background: var(--stories-bg);
@@ -299,7 +299,7 @@ header {
   /* if you don't put object feet it will not fit good */
   object-fit: cover;
   object-position: center;
-  width: 125px;
+  width: 132px;
   height: 200px;
   opacity: 0.4;
   transition: opacity.5s ease-in-out;
@@ -446,11 +446,11 @@ header {
 }
 
 .photopost__info {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 0;
+  padding: 10px 20px 20px;
 }
 
 .photopost__left {
@@ -463,7 +463,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin: 10px 10px 0 0;
 }
 
 .photopost__details {
@@ -483,4 +483,23 @@ header {
   color: var(--light-color-text);
   margin-bottom: 5px;
   font-weight: 600;
+}
+
+.photopost__info .fa-ellipsis-h {
+  color: var(--light-color-text);
+}
+
+.photopost__desc {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.photopost__image img {
+  /* contain it withinh parents width */
+  width: 100%;
+}
+
+.photopost {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
