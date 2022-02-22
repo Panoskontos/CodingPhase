@@ -503,3 +503,52 @@ header {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+
+.photopost__stats {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--light-color-text);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.photopost__stats-emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-circle {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  background-color: #090900;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--fb-white);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.emoji-circle-blue {
+  background-color: var(--fb-blue);
+}
+
+.emoji-cricle-red {
+  background-color: var(--fb-red);
+}
+
+.emoji-cricle-red i {
+  position: relative;
+  top: 1px;
+}
+
+.emoji-circle:nth-last-child(2) {
+  margin-right: 5px;
+}
+
+
