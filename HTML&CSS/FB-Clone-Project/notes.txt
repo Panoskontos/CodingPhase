@@ -25,3 +25,17 @@ We use to to stack elements
 If you want to fit an image 
 use   width: 100%;
 it contains withinh parents width */
+
+
+How to create a dark mode
+All you have to do is change the root colors
+
+@media (prefers-color-scheme: dark){
+    :root {
+        ''''
+        new colors
+        
+        ''''
+        !if you have every color in root it will be super easy
+    }
+}
