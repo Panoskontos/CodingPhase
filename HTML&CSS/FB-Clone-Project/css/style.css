@@ -639,3 +639,50 @@ header {
   margin-right: 10px;
   font-size: 1.3rem;
 }
+
+.endnav__item-contact {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 330px;
+  height: 55px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  position: relative;
+  margin-bottom: -12px;
+}
+
+.endnav__item-contact:hover {
+  background: var(--fb-grey);
+}
+
+.endnav__contact-img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  /* position:absolute; */
+  left: 1px;
+}
+
+.endnav__contact-text {
+  color: var(--dark-color-text);
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.endnavimg-box {
+  position: relative;
+}
+
+.green-circle {
+  height: 13px;
+  width: 13px;
+  background-color: green;
+  border: 2px solid var(--fb-white);
+  border-radius: 50%;
+  position: absolute;
+  right: 9px;
+  bottom: 3px;
+}
