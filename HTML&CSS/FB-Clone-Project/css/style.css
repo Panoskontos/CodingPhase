@@ -603,7 +603,6 @@ header {
   height: 50;
   max-width: 700px;
   width: 100%;
-  
 }
 
 .endnav__item-title {
@@ -612,10 +611,10 @@ header {
 }
 
 .hlinend {
-  height: 1px;
-  background: gray;
+  height: 0.4px;
+  width: 100%;
+  background: var(--fb-grey);
   margin-bottom: 15px;
-  
 }
 .endnav__item-icons-text {
   display: flex;
