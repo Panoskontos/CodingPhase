@@ -265,7 +265,7 @@ header {
 .feed {
   margin-left: 120px;
   width: 50%;
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -584,4 +584,59 @@ header {
   font-size: 1.2rem;
   position: relative;
   top: 3px;
+}
+
+.online__users {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.endnav__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 250px;
+  height: 50;
+  max-width: 700px;
+  width: 100%;
+  
+}
+
+.endnav__item-title {
+  font-weight: 700;
+  color: var(--light-color-text);
+}
+
+.hlinend {
+  height: 1px;
+  background: gray;
+  margin-bottom: 15px;
+  
+}
+.endnav__item-icons-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.endnav__item_text {
+  font-weight: 700;
+  color: var(--light-color-text);
+}
+
+.endnav__item_icons {
+  display: flex;
+  color: var(--light-color-text);
+}
+
+.endnav__item_icons i {
+  cursor: pointer;
+}
+
+.endnav__item_icons .bi-three-dots {
+  margin-right: 10px;
+  font-size: 1.3rem;
 }
