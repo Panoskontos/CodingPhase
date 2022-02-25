@@ -39,3 +39,14 @@ All you have to do is change the root colors
         !if you have every color in root it will be super easy
     }
 }
+
+
+About media responsiveness
+
+When you building a website you want everything to 
+be the size of the screen
+you don't want horizontal scrolling
+
+Remember     
+overflow-x: scroll;
+for horizontal scrolling
