@@ -698,24 +698,24 @@ header {
 
 /* small laptops */
 @media only screen and (max-width: 1300px) {
-  .header__nav-tab {
+  .header__nav-section {
     display: none;
+  }
+  .header__user-img {
+    display: none;
+  }
+
+  .feed {
+    width: 100%;
   }
 }
 
 /* tablets */
 @media only screen and (max-width: 900px) {
-  .header__nav-tab {
-    display: none;
-  }
+  
 }
 
+/* mobile */
 @media only screen and (max-width: 768px) {
-  .header__nav-tab {
-    display: none;
-  }
-  .header__user-img {
-    display:none;
-  }
+  
 }
-
