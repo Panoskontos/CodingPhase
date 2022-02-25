@@ -53,6 +53,15 @@ header {
   display: flex;
 }
 
+/* responsive header */
+.header__mobile-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  margin-right: 20px;
+}
+
 .header__logo-icon .fa-facebook {
   font-size: 40px;
   color: var(--fb-blue);
@@ -686,3 +695,27 @@ header {
   right: 9px;
   bottom: 3px;
 }
+
+/* small laptops */
+@media only screen and (max-width: 1300px) {
+  .header__nav-tab {
+    display: none;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 900px) {
+  .header__nav-tab {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__nav-tab {
+    display: none;
+  }
+  .header__user-img {
+    display:none;
+  }
+}
+
