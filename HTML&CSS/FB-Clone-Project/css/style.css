@@ -767,3 +767,14 @@ header {
     display: none;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .post_types__item {
+    /* make text disapear */
+    color: transparent;
+  }
+
+  .photopost__comments-icon {
+    color: transparent;
+  }
+}
