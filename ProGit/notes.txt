@@ -16,4 +16,5 @@ git commit -am "I added a new file . . . "
 
 git log  = Shows all of your changes with your comments sorted from last to oldest
 
-git blame
+git blame [FILE PATH] = Shows you who commited what
+ 
