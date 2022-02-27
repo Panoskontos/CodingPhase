@@ -14,6 +14,6 @@ git commit -am "I added a new file . . . "
 
 2 important commands
 
-git log
+git log  = Shows all of your changes with your comments sorted from last to oldest
 
 git blame
