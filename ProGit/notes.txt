@@ -46,3 +46,7 @@ Working with conflicts
 
 Compare the changes and just delete the one you don't want
 In VScode is easier
+
+Head = Current Change
+vs 
+Incoming Change
