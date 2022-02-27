@@ -41,4 +41,8 @@ Always keep master clean
 git checkout main = Switch to main make sure everything is commied before
 git merge Nick = merging with branch Nick
 
+
 Working with conflicts
+
+Compare the changes and just delete the one you don't want
+In VScode is easier
