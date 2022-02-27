@@ -1,0 +1,10 @@
+Initialise Git
+
+git init
+
+3 important commands
+
+git add . 
+git status = What has been added, on which branch we are
+git diff = Is there something to add or changed
+
