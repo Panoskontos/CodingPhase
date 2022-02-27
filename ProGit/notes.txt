@@ -30,3 +30,9 @@ git checkout Panos = Switch to branch Panos
 git branch -d MessedUpBranch = Delete Branch
 
 You can add other brances also
+
+
+Merging
+
+Always merge master into featureBranch never featureBranch into master
+Always keep master clean
