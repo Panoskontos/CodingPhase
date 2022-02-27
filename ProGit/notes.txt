@@ -37,4 +37,5 @@ Merging
 Always merge master into featureBranch never featureBranch into master
 Always keep master clean
 
+git checkout main = Switch to main make sure everything is commied before
 git merge Nick = merging with branch Nick
