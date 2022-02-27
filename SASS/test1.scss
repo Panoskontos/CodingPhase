@@ -37,3 +37,13 @@
 .arrow-down {
   @include createArrow(40px, "down", green);
 }
+
+// SASS Is the same but you write similar to python
+// .header
+//   background: black
+//   padding: 20px
+//   ul
+//     background: red
+//     padding: 20px
+//     li
+//       list-style: none

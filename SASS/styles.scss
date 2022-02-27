@@ -1,0 +1,9 @@
+.hb-header {
+  background: red;
+  padding: 10px;
+
+  & .header-wrapper {
+    background: blanchedalmond;
+    padding: 20px;
+  }
+}
