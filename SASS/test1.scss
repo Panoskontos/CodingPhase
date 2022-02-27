@@ -1,0 +1,39 @@
+// arrow function for creating arrows
+// simple div classes
+
+@mixin createArrow($size, $side, $color) {
+  @if $side == "up" {
+    width: 0;
+    height: 0;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+  } @else if $side == "down" {
+    width: 0;
+    height: 0;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-top: $size solid $color;
+  } @else if $side == "right" {
+    width: 0;
+    height: 0;
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+  } @else if $side == "left" {
+    width: 0;
+    height: 0;
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-right: $size solid $color;
+  }
+}
+
+// using the commands
+.arrow {
+  @include createArrow($size: 30px, $side: "up", $color: blue);
+}
+
+.arrow-down {
+  @include createArrow($size: 40px, $side: "down", $color: green);
+}
