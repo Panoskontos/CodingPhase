@@ -45,8 +45,11 @@ git merge Nick = merging with branch Nick
 Working with conflicts
 
 Compare the changes and just delete the one you don't want
-In VScode is easier
 
-Head is Current Change
+In VScode is easier just click the one you want
+Or you can keep both of them
+
+Head is Current Change on this branch
 vs 
-Incoming Change
+Incoming Change 
+
