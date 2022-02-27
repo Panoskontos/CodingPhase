@@ -8,3 +8,6 @@ git add .
 git status = What has been added, on which branch we are
 git diff = Is there something to add or changed
 
+Commiting with good comments
+
+git commit -am "I added a new file . . . "
