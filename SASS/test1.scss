@@ -29,11 +29,11 @@
   }
 }
 
-// using the commands
+// using the commands with 2 different ways
 .arrow {
   @include createArrow($size: 30px, $side: "up", $color: blue);
 }
 
 .arrow-down {
-  @include createArrow($size: 40px, $side: "down", $color: green);
+  @include createArrow(40px, "down", green);
 }

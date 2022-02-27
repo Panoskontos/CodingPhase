@@ -1,1 +1,7 @@
 It makes more sense to write nested code because you can target everything better
+
+
+You can create a lot of your own functions with just
+CSS Tricks code and Scss
+
+Try to use scss to make your own mixins to have reusable code
