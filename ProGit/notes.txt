@@ -19,6 +19,7 @@ git log  = Shows all of your changes with your comments sorted from last to olde
 git blame [FILE PATH] = Shows you who commited what
 
 
+The master branch is what you see live
 It is not recommended to ever work on branch master
 But to create a branch for yourself
 
