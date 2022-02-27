@@ -36,3 +36,5 @@ Merging
 
 Always merge master into featureBranch never featureBranch into master
 Always keep master clean
+
+git merge Nick = merging with branch Nick
