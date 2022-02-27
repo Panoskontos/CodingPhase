@@ -42,3 +42,5 @@ git checkout main = Switch to main make sure everything is commied before
 git merge Nick = merging with branch Nick
 
 Solving Conflicts
+
+Now we will see . . .
