@@ -1,16 +1,16 @@
 .bluebox {
-  padding: 20px;
+  padding: 30px;
   background: blue;
 }
 
 .body {
-  background: gold;
+  background: gray;
   padding: 100px;
 }
 
 .footer {
   background: black;
-  padding: 10px;
+  padding: 30px;
   color: white;
 }
 /*# sourceMappingURL=styles.css.map */
