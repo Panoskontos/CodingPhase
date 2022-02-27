@@ -29,4 +29,8 @@ git branch Panos = Creates a branch named Panos
 
 git branch -av  = Show all avaliable branches
 
+git branch = Shows in which branch you are working on
+
 git checkout Panos = Switch to branch Panos
+
+You can add other brances also
