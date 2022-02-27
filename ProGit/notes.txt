@@ -27,4 +27,6 @@ git branch = Shows in which branch you are working on
 
 git checkout Panos = Switch to branch Panos
 
+git branch -d MessedUpBranch = Delete Branch
+
 You can add other brances also
