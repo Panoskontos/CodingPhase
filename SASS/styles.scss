@@ -1,9 +1,17 @@
-.hb-header {
-  background: red;
-  padding: 10px;
+@import "variables";
 
-  & .header-wrapper {
-    background: blanchedalmond;
-    padding: 20px;
-  }
+.bluebox {
+  padding: 20px;
+  background: $headerbg;
+}
+
+.body {
+  background: $bodybg;
+  padding: 100px;
+}
+
+.footer {
+  background: $footerbg;
+  padding: 10px;
+  color: white;
 }
