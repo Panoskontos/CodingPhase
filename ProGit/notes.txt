@@ -53,4 +53,11 @@ Head is Current Change on this branch
 vs 
 Incoming Change 
 
-wwefw4fwefefw
+You working on a project and you want to go back to your last 
+commit. then use 
+
+git reset --hard HEAD = Undo all changes
+
+
+ZA WARUDO - going back in time
+
