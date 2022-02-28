@@ -48,14 +48,14 @@ Compare the changes and just delete the one you don't want
 
 In VScode is easier just click the one you want
 Or you can keep both of them
-
+sdfsdf
 Head is Current Change on this branch
 vs 
 Incoming Change 
 
 You working on a project and you want to go back to your last 
 commit. then use 
-
+sdfsdf
 git reset --hard HEAD = Undo all changes
 
 
