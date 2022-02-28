@@ -62,3 +62,5 @@ git reset --hard HEAD = Undo all changes
 ZA WARUDO - going BACK IN TIME ( all commit after are deleted)
 
 git reset --hard c48de1494c3409fc9417bbbd83a5923d4b4afd4d
+
+About gitignore
