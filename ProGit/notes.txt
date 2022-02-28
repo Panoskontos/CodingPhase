@@ -63,4 +63,9 @@ ZA WARUDO - going BACK IN TIME ( all commit after are deleted)
 
 git reset --hard c48de1494c3409fc9417bbbd83a5923d4b4afd4d
 
+
+Your git config your username and password
+Remove exclude git config from VSCode settings
+
+
 About gitignore
