@@ -75,7 +75,6 @@ for example images and passwords
 
 
 About git remote 
-
 If i want to have a new remote i'm going to write
 
 git remote add [name] [url] = adds a new origin
@@ -85,3 +84,11 @@ git remote rm [name] = deletes the remote origin
 git remote rename origin github = renaming your origin
 git remote rename github origin
 
+
+About Git pull , git fetch
+
+git pull = Get the latest code
+
+git fetch = get's the latest code but don't merge it for you
+
+!Prefer git pull
