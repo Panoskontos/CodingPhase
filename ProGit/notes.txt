@@ -94,9 +94,10 @@ git fetch = get's the latest code but don't merge it for you
 !Prefer git pull
 
 
+
 Pull requests from open Source
         Steps
-
+----------------------------------
 Fork the project
 
 git clone [http url]
@@ -110,5 +111,7 @@ Go to pull requests, Click new pull request
 Create and write a comment and screenshot if you want
 
 Wait for it to get accepted
+----------------------------------
+
 
 
