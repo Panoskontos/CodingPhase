@@ -92,3 +92,13 @@ git pull = Get the latest code
 git fetch = get's the latest code but don't merge it for you
 
 !Prefer git pull
+
+
+Pull requests from open Source
+        Steps
+
+git clone [http url]
+
+Make your changes
+
+
