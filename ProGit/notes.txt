@@ -107,6 +107,8 @@ add them, commit & push them
 
 Go to pull requests, Click new pull request
 
+Create and write a comment and screenshot if you want
+
 Wait for it to get accepted
 
 
