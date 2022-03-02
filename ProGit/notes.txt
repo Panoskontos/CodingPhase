@@ -69,3 +69,5 @@ Remove exclude git config from VSCode settings
 
 
 About gitignore
+Is for files you don't want to track by git
+you just write them inside git ignore
