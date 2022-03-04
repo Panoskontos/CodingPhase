@@ -121,3 +121,7 @@ people use bitbucket
 It is more private and more professional with many big companies using it
 
 Sourcetree
+Real Enterprise companies use sourcetree
+You can connect github 
+Browse and find your repository and you can see 
+All git history
