@@ -46,3 +46,16 @@ total = [true,12,'asdasd',[1,2,312]]
 // object
 console.log(typeof total)
 
+// creating an object
+var student = {
+    name: 'Panos',
+    age: '25',
+    claas:'1A',
+    greeting: function(){
+        console.log('my name is Panos nice to meet you')
+    }
+}
+
+console.log(student.age)
+student.greeting()
+
