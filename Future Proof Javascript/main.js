@@ -21,23 +21,28 @@ console.log(Car)
 
 
 // Javascript Data Types
+// Are number,bigint,string,boolean,null,undefinded,object,function
 
 // Find type of element
+console.log('')
+console.log('Data types are')
 console.log(typeof apples);
 console.log(typeof car);
-console.log(typeof total);
 console.log(typeof true);
 console.log(typeof undefined);
 console.log(typeof [1,2,3,4]);
+console.log(typeof null);
+console.log(typeof 9007199254740992n);
 console.log(typeof function(){});
 
 // You can cast the variable however you want 
-// nothing crashes
+// nothing crashes!
 var total = 32.4512
 total = 'hello'
 total = undefined
 toatl = [1,2,3,4]
 total = false
-
-
+total = [true,12,'asdasd',[1,2,312]]
+// object
+console.log(typeof total)
 
