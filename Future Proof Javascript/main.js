@@ -49,8 +49,10 @@ console.log(typeof total)
 // creating an object
 var student = {
     name: 'Panos',
+    dream:undefined,
     age: '25',
     claas:'1A',
+    girlfriend:null,
     greeting: function(){
         console.log('my name is Panos nice to meet you')
     }
