@@ -93,4 +93,8 @@ t3 = t1 + ' say what ' + t2 + x
 t4 = '5'+2
 // What is the type of t4
 console.log(typeof t4)
+// answer string
 
+// tenary operator
+t5 = 5 > 4 ? "yes is true" : 'no it is false'
+console.log(t5)
