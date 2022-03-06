@@ -98,3 +98,9 @@ console.log(typeof t4)
 // tenary operator
 t5 = 5 > 4 ? "yes is true" : 'no it is false'
 console.log(t5)
+
+// logical operators
+t6 = true && false
+t6 = true || false
+t6 = !0
+console.log(t6)
