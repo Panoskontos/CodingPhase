@@ -120,3 +120,6 @@ let stringObject  = new String('String created with constructor');
 literalString instanceof String;  // false, string literal is not a String
 stringObject  instanceof String;  // true
 
+
+var cars = 12
+console.log(cars/5)
