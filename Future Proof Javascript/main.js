@@ -125,3 +125,12 @@ var cars = 12
 // integer methods to add decimals
 console.log(cars.toFixed(3))
 
+// Other Methods
+// toString
+// isInteger()
+
+str = 'Panos'
+age = 25
+console.log('my name is '+ str+' i am '+ age)
+
+
