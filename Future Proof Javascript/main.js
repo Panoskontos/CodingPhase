@@ -104,3 +104,19 @@ t6 = true && false
 t6 = true || false
 t6 = !0
 console.log(t6)
+
+// Using the
+// instance of 
+// gives true of false for an instance Struct or Function
+t7 = [1,2,3,4]
+console.log(t7 instanceof Number)
+console.log(t7 instanceof Boolean)
+console.log(t7 instanceof String)
+console.log(t7 instanceof Object)
+
+let literalString = 'This is a literal string';
+let stringObject  = new String('String created with constructor');
+
+literalString instanceof String;  // false, string literal is not a String
+stringObject  instanceof String;  // true
+
