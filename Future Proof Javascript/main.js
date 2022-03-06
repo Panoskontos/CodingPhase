@@ -73,4 +73,24 @@ console.log(fighter1)
 
 
 // Go to W3Schools and look operators
+x  = 5
+y = 3
+// Number operators
+x += y
+x *= y
+x -= y
+x /= y
+x **= y
+x++
+
+// String operators
+t1 = 'John'
+t2 = 'Doe'
+t3 = t1 + ' say what ' + t2
+// Add numbers
+t3 = t1 + ' say what ' + t2 + x
+
+t4 = '5'+2
+// What is the type of t4
+console.log(typeof t4)
 
