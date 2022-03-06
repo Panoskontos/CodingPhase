@@ -122,4 +122,6 @@ stringObject  instanceof String;  // true
 
 
 var cars = 12
-console.log(cars/5)
+// integer methods to add decimals
+console.log(cars.toFixed(3))
+
