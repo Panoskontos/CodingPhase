@@ -61,3 +61,16 @@ var student = {
 console.log(student.age)
 student.greeting()
 
+// difference between let and var
+// The main difference is scoping rules. Variables declared by var keyword are scoped to the immediate function body (hence the function scope) while let variables are scoped to the immediate enclosing block denoted by { } (hence the block scope).
+{
+    var fighter1 = 'Tyson'
+    let fighter2 = 'Dennis'
+}
+console.log(fighter1)
+// console.log(fighter2) Error because undefined
+
+
+
+// Go to W3Schools and look operators
+
