@@ -215,3 +215,10 @@ function printname(name,age) {
 
 printname('Panos',25)
 printname('Nikos',25)
+
+function addStudent(name){
+    console.log(name + ' has subscribed')
+}
+
+addStudent('Marino')
+addStudent('John')
