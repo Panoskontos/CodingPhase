@@ -174,11 +174,14 @@ users.splice(1,1,'Julian')
 console.log(users.reverse())
 
 // Objects
+// Objects are usefull because the let you keep 
+// a lot of data inside of a variable
 var boxer = {
     name:'Nakatani',
     power:80,
     stamina:34,
-    score:"22:1"
+    score:"22:1",
+    girlfriend:null,
 }
 
 
