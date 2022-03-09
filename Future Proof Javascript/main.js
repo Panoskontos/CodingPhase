@@ -135,4 +135,7 @@ console.log('my name is '+ str+' i am '+ age)
 
 
 // String methods
+// https://www.w3schools.com/js/js_string_methods.asp
 console.log(str.length)
+console.log(str.replace("o","0"))
+console.log(str.toUpperCase())
