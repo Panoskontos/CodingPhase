@@ -209,8 +209,9 @@ boxer2.best_punch = 'right overhand'
 console.log(boxer2)
 
 // Functions
-var printname = function(name) {
-    console.log('me name is '+ name)
+function printname(name,age) {
+    console.log('my name is '+ name+' i am '+ age +' years old')
 }
 
-printname('Panos')
+printname('Panos',25)
+printname('Nikos',25)
