@@ -174,3 +174,14 @@ users.splice(1,1,'Julian')
 console.log(users.reverse())
 
 // Objects
+var boxer = {
+    name:'Nakatani',
+    power:80,
+    stamina:34,
+    score:"22:1"
+}
+
+
+boxer.power = 88
+
+console.log(boxer)
