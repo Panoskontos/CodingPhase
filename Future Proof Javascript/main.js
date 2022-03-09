@@ -188,3 +188,21 @@ var boxer = {
 boxer.power = 88
 
 console.log(boxer)
+
+var boxer2 = {
+    name:'Kambosos',
+    power:89,
+    stamina:98,
+    score:"20:0",
+    car: {
+        name:'honda',
+        price:80000
+    }
+}
+
+console.log(boxer2.car.name)
+
+// adding elements to objecrts
+boxer2['speed'] = 100
+
+console.log(boxer2)
