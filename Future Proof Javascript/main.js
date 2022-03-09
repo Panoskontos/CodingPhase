@@ -153,3 +153,11 @@ console.log(users)
 users.shift()
 users.unshift('Eddie')
 console.log(users)
+
+// sorting numerically
+// !sort alone works alphabetically
+var numbers = [2,1,56,3,87, 502,4]
+numbers.sort(function(a, b){return a - b})
+console.log(numbers)
+
+console.log(numbers.indexOf(502))
