@@ -165,5 +165,8 @@ console.log(users)
 var numbers = [2,1,56,3,87, 502,4]
 numbers.sort(function(a, b){return a - b})
 console.log(numbers)
-
 console.log(numbers.indexOf(502))
+
+// Print the revesre of an array
+users.push('Nadia')
+console.log(users.reverse())
