@@ -224,11 +224,14 @@ addStudent('Marino')
 addStudent('John')
 
 function stats(name,bench,deadlift){
+    function inline(bench) {
+        console.log( name + ' inline is '+bench*0.8)
+    }
     return {
         name: name,
         bench:bench,
         deadlift:deadlift,
-        greeting: addStudent(name)
+        inline: inline(bench)
     }
 }
 
