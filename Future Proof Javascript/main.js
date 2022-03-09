@@ -139,3 +139,17 @@ console.log('my name is '+ str+' i am '+ age)
 console.log(str.length)
 console.log(str.replace("o","0"))
 console.log(str.toUpperCase())
+
+
+// Arrays and methods
+var users = ['Panos','Nik','Demon']
+users[2] = 'Leroe'
+// adding to the end
+users.push('Nadia')
+users.push('Nadia')
+users.pop()
+console.log(users)
+// adding to the beggining
+users.shift()
+users.unshift('Eddie')
+console.log(users)
