@@ -222,3 +222,18 @@ function addStudent(name){
 
 addStudent('Marino')
 addStudent('John')
+
+function stats(name,bench,deadlift){
+    return {
+        name: name,
+        bench:bench,
+        deadlift:deadlift,
+        greeting: addStudent(name)
+    }
+}
+
+var user1 = stats('Panos',90,110)
+var user2 = stats('Marinos',100,120)
+var user2 = stats('Babi',80,80)
+console.log(user1)
+console.log(user2)
