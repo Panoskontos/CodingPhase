@@ -154,6 +154,12 @@ users.shift()
 users.unshift('Eddie')
 console.log(users)
 
+// splice method 
+// #1 how many should be added 
+// #2 how many should be removed 
+users.splice(1,3,'Ricardo')
+console.log(users)
+
 // sorting numerically
 // !sort alone works alphabetically
 var numbers = [2,1,56,3,87, 502,4]
