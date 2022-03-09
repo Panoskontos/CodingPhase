@@ -167,6 +167,8 @@ numbers.sort(function(a, b){return a - b})
 console.log(numbers)
 console.log(numbers.indexOf(502))
 
-// Print the revesre of an array
 users.push('Nadia')
+// Remove the Ricardo and add Julian
+users.splice(1,1,'Julian')
+// Print the revesre of an array
 console.log(users.reverse())
