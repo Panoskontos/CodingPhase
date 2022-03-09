@@ -134,3 +134,5 @@ age = 25
 console.log('my name is '+ str+' i am '+ age)
 
 
+// String methods
+console.log(str.length)
