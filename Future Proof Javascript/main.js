@@ -172,3 +172,5 @@ users.push('Nadia')
 users.splice(1,1,'Julian')
 // Print the revesre of an array
 console.log(users.reverse())
+
+// Objects
