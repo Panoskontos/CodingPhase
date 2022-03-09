@@ -208,3 +208,9 @@ boxer2['speed'] = 100
 boxer2.best_punch = 'right overhand'
 console.log(boxer2)
 
+// Functions
+var printname = function(name) {
+    console.log('me name is '+ name)
+}
+
+printname('Panos')
