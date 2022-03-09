@@ -203,6 +203,8 @@ var boxer2 = {
 console.log(boxer2.car.name)
 
 // adding elements to objecrts
+// 2 ways
 boxer2['speed'] = 100
-
+boxer2.best_punch = 'right overhand'
 console.log(boxer2)
+
