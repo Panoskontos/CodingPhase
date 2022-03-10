@@ -24,5 +24,13 @@ for (var i of cars){
 }
 
 
+boxers = [
+    {name:'dio',species:'vamp'},
+    {name:'jojo',species:'hooman'}
+]
+
+for (var j of boxers){
+    console.log(j.name +' is a '+j.species)
+}
 
 
