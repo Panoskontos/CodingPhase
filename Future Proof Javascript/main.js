@@ -271,3 +271,20 @@ switch(user1.bench) {
 
 //   Loops 
 // Most important loop is the for loop
+for (var i =0; i<11;i++){
+    console.log(i)
+}
+
+// iterate array
+var names = ['Dio','Joseph','Jotaro']
+for (var i = names.length - 1; i >= 0; i--) {
+    console.log(names[i]);
+}
+
+// while loop
+var j = 0
+while ( j <= 10 ) {
+    
+    console.log(j)
+    j++
+}
