@@ -246,9 +246,25 @@ if (user1.bench>110) {
     console.log(user1.name + ' is intermediate')
     // not elif
     // else if
-} else if (user1.deadlift>130) {
+} else if (user1.deadlift>100) {
     console.log(user1.name + ' is a strong deadlifter')
 } else {
     console.log(user1.name + ' is not yet there')
 }
 
+// switch statement
+// Always look at the documentation
+
+// When to use switch over if
+// Use switch every time you have more than 2 conditions on a single variable, take weekdays for example, if you have a different action for every weekday you should use a switch.
+
+switch(user1.bench) {
+    case 100:
+      console.log('strong')
+      break;
+    case 90:
+      console.log('weak')
+      break;
+    default:
+        console.log('default')
+  }
