@@ -244,6 +244,11 @@ console.log(user2)
 // Control Flow
 if (user1.bench>110) {
     console.log(user1.name + ' is intermediate')
+    // not elif
+    // else if
+} else if (user1.deadlift>130) {
+    console.log(user1.name + ' is a strong deadlifter')
 } else {
     console.log(user1.name + ' is not yet there')
 }
+
