@@ -240,3 +240,10 @@ var user2 = stats('Marinos',100,120)
 var user2 = stats('Babi',80,80)
 console.log(user1)
 console.log(user2)
+
+// Control Flow
+if (user1.bench>110) {
+    console.log(user1.name + ' is intermediate')
+} else {
+    console.log(user1.name + ' is not yet there')
+}
