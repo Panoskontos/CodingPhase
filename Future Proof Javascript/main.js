@@ -267,4 +267,7 @@ switch(user1.bench) {
       break;
     default:
         console.log('default')
-  }
+  } 
+
+//   Loops 
+// Most important loop is the for loop
