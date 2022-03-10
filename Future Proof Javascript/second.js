@@ -14,8 +14,15 @@ while (j < 10) {
 
 // Iterate array and dicts with style
 cars = ['honda','bmw','subaru']
+// 1t way
 for (var i in cars){
     console.log(cars[i])
 }
+// 2nd way - EASY
+for (var i of cars){
+    console.log(i)
+}
+
+
 
 
