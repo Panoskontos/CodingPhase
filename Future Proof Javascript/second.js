@@ -39,8 +39,9 @@ for (var j of boxers){
 
 // Select spesific element
 var p = document.querySelector('p')
+console.log(p)
 // manipulating css
 p.style.background = 'red'
 p.style.color = 'white'
 
-console.log(p)
+// you should check w3schools on javascript
