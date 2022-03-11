@@ -50,3 +50,13 @@ var d = document.querySelectorAll('p')
 // array of objects
 console.log(d)
 d[1].style.background = 'green'
+
+// adding and creating elements
+// document.createElement(element)
+var btn = document.createElement("button")
+var text = document.createTextNode('Click Here')
+btn.appendChild(text)
+btn.style.width = '100px'
+btn.style.height = '40px'
+btn.style.borderRadius = '20px'
+document.body.appendChild(btn)
