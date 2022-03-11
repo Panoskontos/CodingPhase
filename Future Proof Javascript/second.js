@@ -35,6 +35,12 @@ for (var j of boxers){
 
 // DOM Manipulation
 // This will give you the whole page
-console.log(document)
+// console.log(document)
 
+// Select spesific element
+var p = document.querySelector('p')
+// manipulating css
+p.style.background = 'red'
+p.style.color = 'white'
 
+console.log(p)
