@@ -45,3 +45,8 @@ p.style.background = 'red'
 p.style.color = 'white'
 
 // you should check w3schools on javascript
+// target every element on a page
+var d = document.querySelectorAll('p')
+// array of objects
+console.log(d)
+d[1].style.background = 'green'
