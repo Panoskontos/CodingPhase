@@ -33,4 +33,7 @@ for (var j of boxers){
     console.log(j.name +' is a '+j.species)
 }
 
+// DOM Manipulation
+
+
 
