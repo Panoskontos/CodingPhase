@@ -34,6 +34,7 @@ for (var j of boxers){
 }
 
 // DOM Manipulation
-
+// This will give you the whole page
+console.log(document)
 
 
