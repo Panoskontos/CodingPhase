@@ -62,6 +62,8 @@ btn.style.borderRadius = '20px'
 document.body.appendChild(btn)
 
 // in javascript you will constantly looking at the references
+// you don't have to know everything in javascript
+// just know where to look
 
 // working with events
 function makeRed(x) {
@@ -73,4 +75,5 @@ function makeRed(x) {
 
 function changeBackground() {
     document.body.style.background = 'pink';
+    document.getElementById('Pinkbg').innerHTML = "Pink Background is active"
 }
