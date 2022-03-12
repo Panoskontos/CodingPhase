@@ -60,3 +60,7 @@ btn.style.width = '100px'
 btn.style.height = '40px'
 btn.style.borderRadius = '20px'
 document.body.appendChild(btn)
+
+// in javascript you will constantly looking at the references
+
+// working with events
