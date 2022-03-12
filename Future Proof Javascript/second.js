@@ -64,3 +64,8 @@ document.body.appendChild(btn)
 // in javascript you will constantly looking at the references
 
 // working with events
+function makeRed(x) {
+    x.style.background = 'red'
+}
+
+// Add onclick and add this 
