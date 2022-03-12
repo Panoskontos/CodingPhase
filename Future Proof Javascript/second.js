@@ -65,7 +65,12 @@ document.body.appendChild(btn)
 
 // working with events
 function makeRed(x) {
-    x.style.background = 'red'
+    x.style.background = 'blue'
+    x.style.color = 'white'
 }
 
 // Add onclick and add this 
+
+function changeBackground() {
+    document.body.style.background = 'pink';
+}
