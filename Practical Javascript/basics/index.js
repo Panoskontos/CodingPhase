@@ -31,6 +31,13 @@ function createDiv(size){
     
 }
 
+function printGreeting(name){
+    alert('Hey '+ name)
+}
+var title = document.querySelector('h1')
+title.style.cursor = 'pointer'
+
 createDiv(50)
 createDiv(100)
+
 
