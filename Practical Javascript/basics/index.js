@@ -26,6 +26,7 @@ function createDiv(size){
     div.style.justifyContent = "center"
     div.style.alignItems = "center"
     div.style.color = "white"
+    div.style.borderRadius = "10px"
     div.style.marginTop = '10px'
     div.innerHTML = "<p> Text </p>"
     document.body.appendChild(div)
@@ -42,3 +43,7 @@ createDiv(50)
 createDiv(100)
 
 
+// Javascript Basic Concepts
+
+// Create variables with var and let
+// Create consrtants with const
