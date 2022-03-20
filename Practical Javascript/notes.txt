@@ -1,2 +1,5 @@
 You don't learn javascript the traditional way
 
+Javascript wasn't made for the server but for the DOM
+Strong HTML - CSS are neccessary
+
