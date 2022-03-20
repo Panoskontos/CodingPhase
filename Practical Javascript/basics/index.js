@@ -22,6 +22,9 @@ function createDiv(size){
     div.style.width = size + 'px'
     div.style.height = size + 'px'
     div.style.background = 'black'
+    div.style.display = "flex"
+    div.style.justifyContent = "center"
+    div.style.alignItems = "center"
     div.style.color = "white"
     div.innerHTML = "<p> Text </p>"
     document.body.appendChild(div)
@@ -29,5 +32,5 @@ function createDiv(size){
 }
 
 createDiv(50)
-createDiv(150)
+createDiv(100)
 
