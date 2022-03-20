@@ -8,7 +8,10 @@ var modal = document.querySelector('.email-modal')
 // show modal everytime you leave the page
 // anonymous function
 window.onload = function() {
-    modal.classList.add('email-modal--visible')
+    // arrow function
+    document.addEventListener('mouseleave', () => {
+        modal.classList.add('email-modal--visible')
+    })
 }
 
 
