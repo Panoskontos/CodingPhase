@@ -26,6 +26,7 @@ function createDiv(size){
     div.style.justifyContent = "center"
     div.style.alignItems = "center"
     div.style.color = "white"
+    div.style.marginTop = '10px'
     div.innerHTML = "<p> Text </p>"
     document.body.appendChild(div)
     
