@@ -7,3 +7,6 @@ Search sll event listeners for javascript
 
 // When you want to have a delay use setTimeout
 // setTimeout( function(), miliseconds)
+
+
+learn to use window in javascript
