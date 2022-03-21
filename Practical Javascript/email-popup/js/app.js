@@ -86,3 +86,4 @@ let showthank = () => {
 
 // When you want to have a delay use setTimeout
 // setTimeout( function(), miliseconds)
+

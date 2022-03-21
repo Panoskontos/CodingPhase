@@ -10,3 +10,5 @@ Search sll event listeners for javascript
 
 
 learn to use window in javascript
+
+reuse Javascript Functions
