@@ -5,17 +5,20 @@ var modal = document.querySelector('.email-modal')
 
 // console.log(decline_button)
 
+
+
 let emailState = false;
+
+
 // show modal everytime you leave the page
 // anonymous function
 window.onload = function() {
     // arrow function
-    if (emailState == false){
         document.body.addEventListener('mouseleave', () => {
-            modal.classList.add('email-modal--visible')
+            showModal()
         })
+
     }
-} 
 
     
 
@@ -40,4 +43,16 @@ closeButton.onclick = function(){
 }
 
 // Check if close button has been clicked before
+let showModal = () => {
+    if(emailState== false){
+        modal.classList.add('email-modal--visible')
+        emailState = true      
+    }
+}
 
+
+// email and submiting
+let  emailInput = document.getElementsByClassName('email-modal__input')[0]
+let  emailButton = document.getElementsByClassName('email-modal__button')[0]
+
+console.log(emailInput, emailButton)
