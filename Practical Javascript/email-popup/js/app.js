@@ -78,3 +78,8 @@ function validateEmail(email)
         return re.test(email);
     }
 
+// Leaving it here cause of boredom
+let showthank = () => {
+    var thankContainer = document.querySelector('.email-thank')
+    thankContainer.classList.add('email-thank--success')
+}
