@@ -154,3 +154,11 @@
 .email-thank--success .email-thank__message {
   opacity: 1;
 }
+
+.invisible {
+  display: none;
+}
+
+.email-modal__input--alert {
+  border: 2px solid red;
+}

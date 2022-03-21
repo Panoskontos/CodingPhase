@@ -55,4 +55,26 @@ let showModal = () => {
 let  emailInput = document.getElementsByClassName('email-modal__input')[0]
 let  emailButton = document.getElementsByClassName('email-modal__button')[0]
 
-console.log(emailInput, emailButton)
+emailButton.addEventListener('click', () => {
+    // get the input value
+    console.log(emailInput.value)
+    // use function to check if email is valid
+    if (validateEmail(emailInput.value)) {
+        console.log('valid mail')
+    } else {
+        // alert('this is not a valid email')
+        var emailAlert = document.querySelector('.email_alert')
+        var inputAlert = document.querySelector('.email-modal__input')
+        emailAlert.classList.remove('invisible')
+        inputAlert.classList.add('email-modal__input--alert')
+    }
+
+})
+
+// Check if an email is valid function
+function validateEmail(email) 
+    {
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+
