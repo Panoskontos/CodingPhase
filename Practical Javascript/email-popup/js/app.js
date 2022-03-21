@@ -83,3 +83,6 @@ let showthank = () => {
     var thankContainer = document.querySelector('.email-thank')
     thankContainer.classList.add('email-thank--success')
 }
+
+// When you want to have a delay use setTimeout
+// setTimeout( function(), miliseconds)
